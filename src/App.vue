@@ -7,8 +7,15 @@ export default {
   name: "App",
   data() {
     return {
-      value: "World"
+      value: "World",
     };
-  }
+  },
 };
 </script>
+
+<style scoped>
+div {
+  font-size: 2em;
+  text-align: center;
+}
+</style>
